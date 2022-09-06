@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $POWER/$DIVIDE | bc
+value=`expr $POWER/$DIVIDE` | echo -e $value
